@@ -1,10 +1,14 @@
+import os
+from dotenv import load_dotenv
 from passlib.context import CryptContext
 from jose import jwt
 from datetime import datetime, timedelta
 
+load_dotenv()
 
-SECRET_KEY = "your-super-secret-key"
-ALGORITHM = "HS256"
+
+SECRET_KEY = os.getenv("SECRET_KEY")
+ALGORITHM = os.getenv("ALGORITHM")
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 pwd_context = CryptContext(
