@@ -70,7 +70,7 @@ https://notesapp-production-3441.up.railway.app/docs
 
 ## API Documentation
 
-(images/swagger-ui.png)
+https://github.com/hooryasinwani/notesapp/blob/master/swagger-ui.png
 
 ## Future Improvements
 
